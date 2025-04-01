@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webstudio</title>
+    <title>Watchcharm</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -18,564 +18,1135 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="./image/hero-watch-mobile.webp"
+      type="image/webp"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="container container-header">
-        <nav class="header-navigation">
-          <a class="logo header-logo" href="./index.html"
-            >Web<span class="header-logo-black">Studio</span></a
-          >
-          <ul class="header-menu-list">
-            <li class="header-menu-item">
-              <a class="header-link current" href="./index.html">Studio</a>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html">watchcharm</a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link current" href="./index.html">Home</a>
             </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="">Portfolio</a>
+            <li class="nav-item">
+              <a href="#about-us" class="nav-link">About Us</a>
             </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="">Contacts</a>
+            <li class="nav-item">
+              <a href="#catalog" class="nav-link">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sale" class="nav-link">Sale</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reviews" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-us" class="nav-link">Contact Us</a>
             </li>
           </ul>
         </nav>
-        <address class="header-address">
-          <ul class="header-address-list">
-            <li class="header-address-item">
-              <a class="header-address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="header-address-item">
-              <a class="header-address-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button" data-modal-open>
-            Order Service
-          </button>
-        </div>
-      </section>
-      <section class="feature">
-        <div class="container">
-          <h2 class="visually-hidden">avantages</h2>
-          <ul class="feature-list">
-            <li class="feature-list-item">
-              <div class="icons">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna-1-1"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-item-title">Strategy</h3>
-              <p class="feature-list-item-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li class="feature-list-item">
-              <div class="icons">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock-1-1"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-item-title">Punctuality</h3>
-              <p class="feature-list-item-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="feature-list-item">
-              <div class="icons">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram-1-1"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-item-title">Diligence</h3>
-              <p class="feature-list-item-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li class="feature-list-item">
-              <div class="icons">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut-1-1"></use>
-                </svg>
-              </div>
-              <h3 class="feature-list-item-title">Technologies</h3>
-              <p class="feature-list-item-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="team">
-        <div class="container">
-          <h2 class="team-titel">Our Team</h2>
-          <ul class="team-list">
-            <li class="team-list-item">
-              <img
-                class="photo"
-                src="./images/img.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <div class="block">
-                <h3 class="team-list-title">Mark Guerrero</h3>
-                <p class="team-list-text">Product Designer</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-list-item">
-              <img
-                class="photo"
-                src="./images/img1.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <div class="block">
-                <h3 class="team-list-title">Tom Ford</h3>
-                <p class="team-list-text">Frontend Developer</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-list-item">
-              <img
-                class="photo"
-                src="./images/img2.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <div class="block">
-                <h3 class="team-list-title">Camila Garcia</h3>
-                <p class="team-list-text">Marketing</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-list-item">
-              <img
-                class="photo"
-                src="./images/img3.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <div class="block">
-                <h3 class="team-list-title">Daniel Wilson</h3>
-                <p class="team-list-text">UI Designer</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-item">
-                    <a class="soc-link" href="" target="_blank">
-                      <svg class="soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="portfolio">
-        <div class="container">
-          <h2 class="portfolio-titel-main">Our Portfolio</h2>
-          <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <div class="cower-wrapper">
-                <img
-                  class="card"
-                  src="./images/banking.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="block-services">
-                <h3 class="portfolio-title">Banking App</h3>
-                <p class="portfolio-text">App</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="cower-wrapper">
-                <img
-                  class="card"
-                  src="./images/cashless.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="block-services">
-                <h3 class="portfolio-title">Cashless Payment</h3>
-                <p class="portfolio-text">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="cower-wrapper">
-                <img
-                  class="card"
-                  src="./images/meditation.jpg"
-                  alt="Meditation App"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="block-services">
-                <h3 class="portfolio-title">Meditation App</h3>
-                <p class="portfolio-text">App</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="cower-wrapper">
-                <img
-                  class="card"
-                  src="./images/taxi.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="block-services">
-                <h3 class="portfolio-title">Taxi Service</h3>
-                <p class="portfolio-text">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="cower-wrapper">
-                <img
-                  class="card"
-                  src="./images/screen.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="block-services">
-                <h3 class="portfolio-title">Screen Illustrations</h3>
-                <p class="portfolio-text">Design</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="cower-wrapper">
-                <img
-                  class="card"
-                  src="./images/online.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="block-services">
-                <h3 class="portfolio-title">Online Courses</h3>
-                <p class="portfolio-text">Marketing</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container container-footer">
-        <div class="footer-left">
-          <a class="logo footer-logo" href="./index.html"
-            >Web<span class="header-logo-white">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-right">
-          <p class="media">Social media</p>
-          <ul class="social-icons">
-            <li class="footer-soc">
-              <a class="footer-soc-icon" href="" target="_blank">
-                <svg class="soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-2-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc">
-              <a class="footer-soc-icon" href="" target="_blank">
-                <svg class="soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1-1-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc">
-              <a class="footer-soc-icon" href="" target="_blank">
-                <svg class="soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-1-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc">
-              <a class="footer-soc-icon" href="" target="_blank">
-                <svg class="soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-1-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-subscribe">
-          <p class="subscrib">Subscribe</p>
-          <form class="subscribel-window">
-            <label for="subscrib" class="footer-label">
-              <input
-                type="email"
-                name="email"
-                id="subscrib"
-                placeholder="E-mail"
-                class="footer-imput"
-              />
-            </label>
-            <button class="footer-button" type="submit">
-              Subscribe
-              <svg class="icon-subscribe" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame"></use>
+        <ul class="soc-list">
+          <li class="soc-item">
+            <a
+              class="soc-link"
+              target="_blank"
+              href="https://www.facebook.com/goITclub/  "
+              rel="noopener noreferrer"
+            >
+              <svg class="" width="20" height="20">
+                <use href="/image/icons.svg#icon-Frame-52"></use>
               </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-    </footer>
-    <div class="backdrop" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-open" data-modal-close>
-          <svg class="modal-icon-close" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a
+              class="soc-link"
+              target="_blank"
+              href="https://www.instagram.com/goitclub/"
+              rel="noopener noreferrer"
+            >
+              <svg class="" width="20" height="20">
+                <use href="/image/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a
+              class="soc-link"
+              target="_blank"
+              href="https://www.youtube.com/c/GoIT "
+              rel="noopener noreferrer"
+            >
+              <svg class="" width="20" height="20">
+                <use href="/image/icons.svg#icon-Frame-60"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <button
+          class="burger-btn"
+          type="button"
+          title="Open menu"
+          data-menu-open
+        >
+          <svg class="burger-icon" width="34" height="34">
+            <use href="/image/icons.svg#icon-menu-open"></use>
           </svg>
         </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="form-modal" name="form-modal">
-          <div class="modal-fieid">
-            <label for="user-name" class="modal-label">Name</label>
-            <div class="input-wrapper">
+      </div>
+    </header>
+    <div class="mobile-menu" data-menu>
+      <button
+        type="button"
+        class="mobile-menu-close"
+        aria-label="Close menu"
+        data-menu-close
+      >
+        <svg fill="#fff" width="34" height="34">
+          <use href="/image/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu-container">
+        <ul class="mobile-menu-nav">
+          <li class="mobile-menu-item">
+            <a href="#home" class="mobile-menu-link current">Home</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#about-us" class="mobile-menu-link">About Us</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#catalog" class="mobile-menu-link">Catalog</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#sale" class="mobile-menu-link">Sale</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#reviews" class="mobile-menu-link">Reviews</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#contact-us" class="mobile-menu-link">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu-socials">
+          <li class="mobile-menu-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              class="social-link"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icon" width="20" height="20">
+                <use href="./image/icons.svg#icon-Frame-52"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              class="social-link"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icon" width="20" height="20">
+                <use href="./image/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              class="social-link"
+              rel="noopener noreferrer"
+            >
+              <svg class="social-icon" width="20" height="20">
+                <use href="./image/icons.svg#icon-Frame-60"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-top">
+          <div class="hero-title-wrapper">
+            <h1 class="hero-title">
+              Welcome to our
+              <span class="hero-title-selection">collection</span> of premium
+              watches
+            </h1>
+            <p class="hero-text">
+              Our watches are not just timepieces, but also an expression of
+              your personality and lifestyle. From classic designs to modern
+              ones, we have a watch to suit every taste and occasion.
+            </p>
+          </div>
+          <div class="hero-media-wrapper">
+            <ul class="hero-image-list">
+              <li class="hero-item">
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      /image/ellipse-23-anastasia-trachuk-desktop.webp    1x,
+                      /image/ellipse-23-anastasia-trachuk-desktop@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /image/ellipse-21-victoria-romashenko-tablet.webp    1x,
+                      /image/ellipse-21-victoria-romashenko-tablet@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      /image/ellipse-21-victoria-romashenko-mobile.webp    1x,
+                      /image/ellipse-21-victoria-romashenko-mobile@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <img
+                    src="/image/ellipse-23-anastasia-trachuk-desktop.webp"
+                    alt="Victoria Romashenko"
+                    loading="lazy"
+                    class="hero-picture first"
+                    width="60"
+                  />
+                </picture>
+              </li>
+              <li class="hero-item">
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      /image/ellipse-22-john-wax-desktop.webp    1x,
+                      /image/ellipse-22-john-wax-desktop@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /image/ellipse-22-john-wax-tablet.webp    1x,
+                      /image/ellipse-22-john-wax-tablet@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      /image/ellipse-22-john-wax-mobile.webp    1x,
+                      /image/ellipse-22-john-wax-mobile@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <img
+                    src="/image/ellipse-22-john-wax-mobile.webp"
+                    alt="John Wax"
+                    loading="lazy"
+                    class="hero-picture second"
+                    width="60"
+                  />
+                </picture>
+              </li>
+              <li class="hero-item">
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      /image/ellipse-23-anastasia-trachuk-desktop.webp    1x,
+                      /image/ellipse-23-anastasia-trachuk-desktop@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /image/ellipse-23-anastasia-trachuk-tablet.webp    1x,
+                      /image/ellipse-23-anastasia-trachuk-tablet@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      /image/ellipse-23-anastasia-trachuk-mobile.webp    1x,
+                      /image/ellipse-23-anastasia-trachuk-mobile@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <img
+                    src="/image/ellipse-23-anastasia-trachuk-mobile.webp"
+                    alt="Anastasia Trachuk"
+                    loading="lazy"
+                    class="hero-picture third"
+                    width="60"
+                  />
+                </picture>
+              </li>
+            </ul>
+
+            <a href="#footer" class="hero-link">Scroll down</a>
+          </div>
+        </div>
+
+        <picture>
+          <source
+            srcset="
+              /image/hero-watch-desktop.webp    1x,
+              /image/hero-watch-desktop@2x.webp 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /image/hero-watch-tablet.webp     1x,
+              /image/hero-watch-desktop@2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /image/hero-watch-mobile.webp    1x,
+              /image/hero-watch-mobile@2x.webp 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img src="/image/hero-watch-mobile.webp" alt="Watch" class="card" />
+        </picture>
+      </div>
+      <section class="about-us" id="about-us">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="content-about">
+              <h2 class="title-about">About Us</h2>
+              <ul class="about-list">
+                <li class="about-item">
+                  <p class="about-text">
+                    Welcome to our premium watch collection, where luxury and
+                    style meet functionality and precision. Our selection of
+                    timepieces embodies the very best in Swiss craftsmanship and
+                    engineering, ensuring that you'll always have a reliable and
+                    stylish accessory on your wrist.
+                  </p>
+                </li>
+                <li>
+                  <p class="about-text">
+                    At our premium watch collection, we believe that a watch is
+                    more than just a timekeeping device – it's a statement piece
+                    that reflects your personality and style. So why settle for
+                    anything less than the best?
+                  </p>
+                </li>
+              </ul>
+              <a href="#catalog" class="anchor-catalog">View catalog</a>
+            </div>
+
+            <picture>
+              <source
+                srcset="
+                  /image/clock-desctop-1x.webp 1x,
+                  /image/clock-desctop-2x.webp 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  /image/clock-tablet-1x.webp 1x,
+                  /image/clock-tablet-2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  /image/clock-mobile-1x.webp 1x,
+                  /image/clock-mobile-2x.webp 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="/image/clock-mobile-1x.webp" alt="Watch" class="card" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="catalog" id="catalog">
+        <div class="container">
+          <h2 class="ctlg-name">Catalog</h2>
+
+          <ul class="goods">
+            <li class="name-goods">
+              <div class="goods-clock">
+                <div class="img-clock">
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./image/clock-1-garmin-genix-7x-pro-mobile.webp 1x,
+                        ./image/clock-1-garmin-genix-7x-pro-mobile.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./image/clock-1-garmin-genix-7x-pro-tablet.webp    1x,
+                        ./image/clock-1-garmin-genix-7x-pro-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./image/clock-1-garmin-genix-7x-pro-desktop.webp    1x,
+                        ./image/clock-1-garmin-genix-7x-pro-desktop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <img
+                      class="size"
+                      src="./image/clock-1-garmin-genix-7x-pro-mobile.webp"
+                      alt="Garmin Fenix 7X Pro Sapphire Solar"
+                    />
+                  </picture>
+                </div>
+
+                <h3 class="name-clock">Garmin Fenix 7X Pro Sapphire Solar</h3>
+                <p class="cost-clock">€500</p>
+              </div>
+            </li>
+
+            <li class="name-goods">
+              <div class="goods-clock">
+                <div class="img-clock">
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./image/clock-2-garmin-marq-athlete-mobile.webp    1x,
+                        ./image/clock-2-garmin-marq-athlete-mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./image/clock-2-garmin-marq-athlete-tablet.webp    1x,
+                        ./image/clock-2-garmin-marq-athlete-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./image/clock-2-garmin-marq-athlete-desktop.webp    1x,
+                        ./image/clock-2-garmin-marq-athlete-desktop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <img
+                      class="size"
+                      src="./image/clock-2-garmin-marq-athlete-mobile.webp"
+                      alt="Garmin Marq Athlete"
+                    />
+                  </picture>
+                </div>
+
+                <h3 class="name-clock">Garmin Marq Athlete</h3>
+                <p class="cost-clock">€450</p>
+              </div>
+            </li>
+
+            <li class="name-goods">
+              <div class="goods-clock">
+                <div class="img-clock">
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./image/clock-3-garmin-descent-mk1-mobile.webp    1x,
+                        ./image/clock-3-garmin-descent-mk1-mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./image/clock-3-garmin-descent-mk1-tablet.webp    1x,
+                        ./image/clock-3-garmin-descent-mk1-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./image/clock-3-garmin-descent-mk1-desktop.webp    1x,
+                        ./image/clock-3-garmin-descent-mk1-desktop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <img
+                      class="size"
+                      src="./image/clock-3-garmin-descent-mk1-mobile.webp"
+                      alt="Garmin Descent MK1"
+                    />
+                  </picture>
+                </div>
+
+                <h3 class="name-clock">Garmin Descent MK1</h3>
+                <p class="cost-clock">€680</p>
+              </div>
+            </li>
+
+            <li class="name-goods">
+              <div class="goods-clock">
+                <div class="img-clock">
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./image/clock-4-garmin-d2-delta-px-mobile.webp    1x,
+                        ./image/clock-4-garmin-d2-delta-px-mobile@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./image/clock-4-garmin-d2-delta-px-tablet.webp    1x,
+                        ./image/clock-4-garmin-d2-delta-px-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./image/clock-4-garmin-d2-delta-px-desktop.webp    1x,
+                        ./image/clock-4-garmin-d2-delta-px-desktop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <img
+                      class="size"
+                      src="./image/clock-4-garmin-d2-delta-px-mobile.webp"
+                      alt="Garmin D2 Delta PX"
+                    />
+                  </picture>
+                </div>
+
+                <h3 class="name-clock">Garmin D2 Delta PX</h3>
+                <p class="cost-clock">€380</p>
+              </div>
+            </li>
+
+            <li class="name-goods none">
+              <div class="goods-clock">
+                <div class="img-clock">
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./image/clock-5-garmin-fenix-6-pro-solar-tablet.webp 1x,
+                        ./image/clock-5-garmin-fenix-6-pro-solar-tablet.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./image/clock-5-garmin-fenix-6-pro-solar-tablet.webp    1x,
+                        ./image/clock-5-garmin-fenix-6-pro-solar-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./image/clock-5-garmin-fenix-6-pro-solar-desktop.webp    1x,
+                        ./image/clock-5-garmin-fenix-6-pro-solar-desktop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <img
+                      class="size"
+                      src="./image/clock-5-garmin-fenix-6-pro-solar-tablet.webp"
+                      alt="Garmin Fenix 6 Pro Solar"
+                    />
+                  </picture>
+                </div>
+
+                <h3 class="name-clock">Garmin Fenix 6 Pro Solar</h3>
+                <p class="cost-clock">€400</p>
+              </div>
+            </li>
+
+            <li class="name-goods none">
+              <div class="goods-clock">
+                <div class="img-clock">
+                  <picture>
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./image/clock-6-tube-watch-s42-date-steel-tablet.webp    1x,
+                        ./image/clock-6-tube-watch-s42-date-steel-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./image/clock-6-tube-watch-s42-date-steel-tablet.webp    1x,
+                        ./image/clock-6-tube-watch-s42-date-steel-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./image/clock-6-tube-watch-s42-date-steel-desktop.webp    1x,
+                        ./image/clock-6-tube-watch-s42-date-steel-desktop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+
+                    <img
+                      class="size"
+                      src="./image/clock-6-tube-watch-s42-date-steel-tablet.webp"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                </div>
+
+                <h3 class="name-clock">
+                  Tube Watch S42 Date Steel With Black Case
+                </h3>
+                <p class="cost-clock">€395</p>
+              </div>
+            </li>
+          </ul>
+          <button class="btn" type="button">Show more</button>
+        </div>
+      </section>
+    </section>
+    <section class="advertisement">
+      <div class="container">
+        <h1 class="visibility-hidden">Advertisement</h1>
+        <div class="advertisement-card">
+          <p class="advertisement-text">
+            Choose <span class="advertisement-text-span">your story</span>,
+            making every moment unique. Time is your style, and we reveal it.
+          </p>
+          <a href="#contact-us" class="advertisement-button">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="sale" id="sale">
+      <div class="container">
+        <h2 class="sale-title">Sale</h2>
+        <div class="sale-content">
+          <ul class="sale-photos-list">
+            <li class="sale-photos-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    /image/watch1-desk.webp    1x,
+                    /image/watch1-desk-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /image/watch1-tab.webp    1x,
+                    /image/watch1-tab-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /image/watch1-mob.webp    1x,
+                    /image/watch1-mob-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <img
+                  src="/image/watch1-desk.webp"
+                  alt="Photo of Watch"
+                  class="sale-watch-photo"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+            <li class="sale-photos-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    /image/watch2-desk.webp    1x,
+                    /image/watch2-desk-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /image/watch2-tab.webp    1x,
+                    /image/watch2-tab-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /image/watch2-mob.webp    1x,
+                    /image/watch2-mob-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <img
+                  src="/image/watch2-desk.webp"
+                  alt="Photo of Watch"
+                  class="sale-watch-photo"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+            <li class="sale-photos-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    /image/watch3-desk.webp    1x,
+                    /image/watch3-desk-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /image/watch3-tab.webp    1x,
+                    /image/watch3-tab-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /image/watch3-mob.webp    1x,
+                    /image/watch3-mob-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <img
+                  src="/image/watch3-desk.webp"
+                  alt="Photo of Watch"
+                  class="sale-watch-photo"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+            <li class="sale-photos-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    /image/watch4-desk.webp    1x,
+                    /image/watch4-desk-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    /image/watch4-tab.webp    1x,
+                    /image/watch4-tab-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    /image/watch4-mob.webp    1x,
+                    /image/watch4-mob-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <img
+                  src="/image/watch4-desk.webp"
+                  alt="Photo of Watch"
+                  class="sale-watch-photo"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+          </ul>
+
+          <div class="sale-main-photo">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  /image/watch5-desk.webp    1x,
+                  /image/watch5-desk-2x.webp 2x
+                "
+                type="image/webp"
+              />
+
+              <source
+                media="(min-width: 768px)"
+                srcset="/image/watch5-tab.webp 1x, /image/watch5-tab-2x.webp 2x"
+                type="image/webp"
+              />
+
+              <source
+                media="(max-width: 767px)"
+                srcset="/image/watch5-mob.webp 1x, /image/watch5-mob-2x.webp 2x"
+                type="image/webp"
+              />
+
+              <img
+                src="/image/watch5-desk.webp"
+                alt="Photo of Watch"
+                class="sale-watch-photo-main"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div class="sale-description">
+            <h3 class="sale-description-name">
+              MARQ® Commander (Gen 2) - Carbon Edition
+            </h3>
+            <p class="sale-description-tag">Product tag: 706587</p>
+            <ul class="sale-description-price-list">
+              <li class="sale-description-price-new">€1500</li>
+              <li class="sale-description-price">€3000</li>
+            </ul>
+            <p class="sale-description-text">
+              The Garmin MARQ Commander Gen 2 Carbon Edition is a modern
+              smartwatch for adventurers that takes materials and features to
+              the next level. The body of the watch is made of very durable
+              Fused Carbon Fiber material and has a precise AMOLED touch screen.
+              The sensitive touch screen is complemented by buttons that can be
+              used in any conditions.
+            </p>
+            <ul class="sale-description-character-list">
+              <li class="sale-description-character">Fused carbon fiber</li>
+              <li class="sale-description-character">Grade-5 Titanuim</li>
+              <li class="sale-description-character">Athlete</li>
+              <li class="sale-description-character">Golfer</li>
+              <li class="sale-description-character">Commander</li>
+              <li class="sale-description-character">Adventurer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2 class="reviews-title">Reviews</h2>
+        <div class="customers-overwiev">
+          <ul class="customers-list">
+            <li class="customers-item">
+              <picture>
+                <source
+                  srcset="
+                    ./image/review-foto-1.webp    1x,
+                    ./image/review-foto-1-2x.webp 2x
+                  "
+                />
+                <img
+                  src="./image/review-foto-1.webp"
+                  alt="John Wax"
+                  class="customers-photo"
+                />
+              </picture>
+              <div class="name-feedback">
+                <h3 class="customers-name">John Wax</h3>
+                <p class="customers-review">
+                  Buying a watch from was the best choice for me. The design is
+                  perfectly combined with high quality materials. The strap fits
+                  nicely on the hand, and the mechanism works flawlessly.
+                </p>
+              </div>
+            </li>
+            <li class="customers-item review-hidden-mob">
+              <picture>
+                <source
+                  srcset="
+                    ./image/review-foto-2.webp    1x,
+                    ./image/review-foto-2-2x.webp 2x
+                  "
+                />
+                <img
+                  src="./image/review-foto-2.webp"
+                  alt="Victoria Romashenko"
+                  class="customers-photo"
+                />
+              </picture>
+
+              <div class="name-feedback">
+                <h3 class="customers-name">Victoria Romashenko</h3>
+                <p class="customers-review">
+                  Can't take my eyes off my watch from. Every time I put it on,
+                  it is admired by those around me. The build quality and
+                  attention to detail make it a real gem among my accessories.
+                </p>
+              </div>
+            </li>
+            <li class="customers-item review-hidden-mob review-hidden-tablet">
+              <picture>
+                <source
+                  srcset="
+                    ./image/review-foto-3.webp    1x,
+                    ./image/review-foto-3-2x.webp 2x
+                  "
+                />
+                <img
+                  src="./image/review-foto-3.webp"
+                  alt="Anastasia Trachuk"
+                  class="customers-photo"
+                />
+              </picture>
+              <div class="name-feedback">
+                <h3 class="customers-name">Anastasia Trachuk</h3>
+                <p class="customers-review">
+                  My watch from is a real masterpiece. Every detail impresses
+                  with the high quality of execution. Special features like
+                  [specify features] make it an indispensable companion in my
+                  daily life.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact-us" class="contact">
+      <div class="container">
+        <h2 class="contact-title">Contact Us</h2>
+        <div class="container-contact">
+          <div class="contact-field">
+            <p class="contact-text">
+              Please use the form below to contact us. Enter your name, email,
+              phone, and message and we'll get back to you shortly.
+            </p>
+            <form class="form-contact" name="form-contact">
+              <label for="user-name" class="contact-label"></label>
               <input
                 type="text"
-                name="user-name"
+                name="name"
                 id="user-name"
-                placeholder=""
-                class="modal-impyt"
+                placeholder="Name"
+                class="contact-imput"
               />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-fieid">
-            <label for="user-tel" class="modal-label">Phone</label>
-            <div class="input-wrapper">
-              <input
-                type="tel"
-                name="tel"
-                id="user-tel"
-                placeholder=""
-                class="modal-impyt"
-              />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-fieid">
-            <label for="user-email" class="modal-label">Email</label>
-            <div class="input-wrapper">
+              <label for="user-email" class="contact-label"></label>
               <input
                 type="email"
                 name="email"
                 id="user-email"
-                placeholder=""
-                class="modal-impyt"
+                placeholder="Email"
+                required
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                class="contact-imput"
               />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </div>
+              <label for="user-tel" class="contact-label"></label>
+              <input
+                type="tel"
+                name="tel"
+                id="user-tel"
+                placeholder="+380"
+                required
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                class="contact-imput"
+              />
+              <label for="user-comment" class="label-textarea"></label>
+              <textarea
+                class="contact-textarea"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+                rows="5"
+              ></textarea>
+              <button type="submit" class="contact-button">Send</button>
+            </form>
           </div>
-          <div class="modal-fieid-textarea">
-            <label for="user-comment" class="modal-label">Comment</label>
-            <textarea
-              class="textarea-modal"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Text input"
-              rows="8"
-            ></textarea>
-          </div>
-          <div class="modal-fieid-checkbox">
-            <input
-              type="checkbox"
-              name="user-privacy"
-              id="user-privacy"
-              value="true"
-              class="input-checkbox visually-hidden"
+          <picture class="image-watch">
+            <source
+              srcset="
+                /image/rectangle-dis-1x.webp 1x,
+                /image/rectangle-dis-2x.webp 2x
+              "
+              media="(min-width: 1280px)"
             />
-            <label class="modal-label" for="user-privacy">
-              <span class="checkbox-plase">
-                <svg class="icon-vector" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Vector-1"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a class="modal-link" href="">Privacy Policy</a>
-            </label>
-          </div>
-          <button type="submit" class="modal-submit">Send</button>
-        </form>
+            <source
+              srcset="
+                /image/rectangle-tab-1x.webp 1x,
+                /image/rectangle-tab-2x.webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                /image/rectangle-mob-1x.webp 1x,
+                /image/rectangle-mob-2x.webp 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="/image/rectangle-mob-1x.webp" alt="Watch" class="card" />
+          </picture>
+        </div>
       </div>
-    </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <div class="logo_n_soc">
+          <a class="logo-footer" href="index.html">watchcharm</a>
+          <div class="soc-block">
+            <ul class="soc-ul">
+              <li class="soc-item">
+                <a
+                  class="soc-item-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.facebook.com/goITclub/"
+                >
+                  <svg class="icon-soc" width="18" height="18">
+                    <use href="/image/icons.svg#icon-Frame-52"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-item">
+                <a
+                  class="soc-item-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.instagram.com/goitclub/"
+                >
+                  <svg class="icon-soc" width="18" height="18">
+                    <use href="/image/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-item">
+                <a
+                  class="soc-item-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.youtube.com/c/GoIT/"
+                >
+                  <svg class="icon-soc" width="18" height="18">
+                    <use href="/image/icons.svg#icon-Frame-60"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <address class="contacts">
+          <a class="contacts-link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
+        </address>
+        <p class="title-footer">
+          Have the time of your life with our watches: where high-class
+          craftsmanship meets impeccable design
+        </p>
+        <div class="nav_n_adress">
+          <nav class="nav-footer">
+            <ul class="nav-footer-list">
+              <li class="nav-item">
+                <a class="nav-link-footer" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-footer" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-footer" href="#catalog">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-footer" href="#sale">Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-footer" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-footer" href="#contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address">
+            <a
+              class="contacts-link-address"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.google.com/maps/place/1678+Pioneer+Rd,+Salt+Lake+City,+UT+84104,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@40.733048,-111.9629734,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f35b0826d399:0x2b26230524fd3ca3!8m2!3d40.733048!4d-111.9603985!16s%2Fg%2F11bw41vm_p?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+              >1678 S. Pioneer Road Salt Lake City UT 84104</a
+            >
+          </address>
+        </div>
+        <div class="rights">
+          <p class="rights-title">©2023 The Watch Spot. All rights reserved.</p>
+          <ul class="terms">
+            <li class="terms-item">
+              <a class="terms-link" href="">Terms of Service</a>
+            </li>
+            <li class="terms-item">
+              <a class="terms-link" href="">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="./js/task.js"></script>
   </body>
 </html>
