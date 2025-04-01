@@ -1052,7 +1052,6 @@ main {
   height: 167px;
 }
 
-/* ---- Tablet ---- */
 @media screen and (min-width: 768px) {
   .advertisement {
     padding-top: 40px;
@@ -1083,7 +1082,6 @@ main {
   }
 }
 
-/* ---- Desktop ---- */
 @media (min-width: 1280px) {
   .advertisement {
     padding-top: 50px;
@@ -1532,7 +1530,7 @@ main {
 }
 /*----------------contact-us---------------*/
 .contact {
-  max-width: 375px;
+  max-width: 335px;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1607,7 +1605,6 @@ main {
   height: 84px;
   resize: none;
   margin-bottom: 28px;
-
   cursor: pointer;
   background-color: transparent;
   outline: transparent;
