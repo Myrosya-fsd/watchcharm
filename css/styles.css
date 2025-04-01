@@ -547,6 +547,7 @@ main {
 }
 
 .hero-image {
+  width: 100%;
   border-radius: 30px;
 }
 
@@ -715,11 +716,16 @@ main {
   background-color: #1f3cd4;
 }
 
+.about-card {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .about-us {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+
   .about-wrapper {
     gap: 40px;
     align-items: center;
@@ -973,7 +979,7 @@ main {
     margin-bottom: 14px;
   }
 }
-/*--------------adve------------------*/
+/*--------------advertisement---------------*/
 .advertisement {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1642,12 +1648,9 @@ main {
   background-color: #1f3cd4;
 }
 
-.image-watch {
-  min-width: 320px;
-  height: 512px;
-}
-
 .card {
+  width: 100%;
+  height: 512px;
   border-radius: 30px;
 }
 
@@ -2040,4 +2043,3 @@ main {
     min-width: 505px;
   }
 }
-
