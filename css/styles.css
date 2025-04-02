@@ -1752,6 +1752,7 @@ main {
 /*----------------footer--------------*/
 .footer {
   padding-top: 30px;
+  margin: 0 auto;
 }
 
 .footer-container {
