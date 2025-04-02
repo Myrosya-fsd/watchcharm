@@ -1146,7 +1146,7 @@ main {
 }
 
 .sale-photos-item {
-  max-width: 80px;
+  min-width: 68px;
   max-height: 80px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
